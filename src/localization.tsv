@@ -1,0 +1,809 @@
+Term	Notes	English	Vietnamese
+card_animal_pen_description		Can hold 5 Animals	Có thể giữ 5 gia súc
+card_animal_pen_name		Animal Pen	Chuồng gia súc
+card_apple_description		Keeps doctors away	Giữ bác sĩ ở xa
+card_apple_name		Apple	Táo
+card_apple_tree_description		A tree.. with apples in it	Cũng là cây nhưng có Táo
+card_apple_tree_name		Apple Tree	Cây Táo
+card_apple_tree_status		Punching Apple Tree	Đang đấm cây Táo
+card_bear_description		Soft yet dangerous	Mềm mại nhưng hung dữ
+card_bear_name		Bear	Gấu
+card_berry_description		A simple food found in Berry Bushes	Quả đuọc tìm thấy trong bụi dâu dại
+card_berry_name		Berry	Quả dâu dại
+card_berrybush_description		A bush with delicious berries in it	Một bụi quả dâu dại ngon
+card_berrybush_name		Berry Bush	Bụi quả dâu dại
+card_berrybush_status		Picking Berry Bush	Đang nhặt quả dâu dại
+card_bone_description		Fact: a skeleton consists of many of these	Sự thật: Một bộ xương thường bao gồm những cái này
+card_bone_name		Bone	Xương
+card_brick_description		A strong building material	Vật liệu xây dựng chắc chắn
+card_brick_name		Brick	Gạch
+card_brickyard_description		Quickly turns Stone into Bricks	Biến Đá thành Gạch một cách nhanh chóng
+card_brickyard_name		Brickyard	Sân đóng Gạch
+card_campfire_description		Can be used to cook foods - it looks warm & cozy	Có thể dùng để nấu đồ ăn - mang lại cảm giác ấm cúng
+card_campfire_name		Campfire	Lửa trại
+card_carrot_description		The crunchiest vegetable	Rau củ giòn nhất
+card_carrot_name		Carrot	Cà rốt
+card_catacombs_description		Rumored to contain a mysterious object	Nghe đồn là có kỳ vật bên trong
+card_catacombs_name		Catacombs	Hầm mộ
+card_catacombs_status		Exploring Catacombs	Đang khám phá Hầm mộ
+card_chicken_description		Alleged descendent of dinosaurs. I don't see it	Được cho là hậu duệ của khùng long. Tôi không nghĩ là vậy
+card_chicken_name		Chicken	Gà
+card_cooked_meat_description		It's cooked medium rare	Thịt này nấu hơi tái
+card_cooked_meat_name		Cooked Meat	Thịt đã nấu
+card_corpse_description		A dead human	Xác người
+card_corpse_name		Corpse	Xác
+card_cow_description		MOOOOOO!	ÙUUUUUM BÒOOOOO!
+card_cow_name		Cow	Bò sữa
+card_demon_description		The Final Boss	Boss cuối
+card_demon_name		Demon	Ác quỷ
+card_dog_description		Humanity's true best friend. Can do anything a Human can, just slower!	Bạn thân thực sự của loài người. Có thể làm mọi thứ mà Người có thể làm, chỉ là chậm hơn!
+card_dog_name		Dog	Chó
+card_egg_description		Can't be eaten raw: thanks salmonella	Không thể ăn sống: hay lắm khuẩn salmonella
+card_egg_name		Egg	Trứng gà
+card_explorer_description		Very fast at exploring Locations, but slightly slower at other tasks	Rất nhanh trong việc đi khám phá Địa danh, nhưng hơi chậm khi làm việc khác
+card_explorer_name		Explorer	Nhà thám hiểm
+card_farm_description		An advanced building for growing Food	Một nơi chuyên để trồng Thức ăn
+card_farm_name		Farm	Nông trại
+card_flint_description		Used to start fires	Dùng để đánh lửa
+card_flint_name		Flint	Đá lửa
+card_forest_description		A quaint place that also contains monsters	Rừng có quái vật
+card_forest_name		Forest	Rừng
+card_forest_status		Exploring Forest	Đang thám hiểm rừng
+card_frittata_description		Delicious! Eat it with a fork	Rất là ngon! Hãy ăn nó với nĩa
+card_frittata_name		Frittata	Frittata
+card_fruit_salad_description		A classic ancient food	Một món ăn cổ điển
+card_fruit_salad_name		Fruit Salad	Salad trái cây
+card_garden_description		A simple building for growing Food	Một nơi để trồng Thức ăn
+card_garden_name		Garden	Vườn
+card_giant_rat_description		Big version of a small Rat	Phiên bản bự của chuột nhắt
+card_giant_rat_name		Giant Rat	Chuột bự
+card_goblet_description		A mysterious object	Kỳ vật
+card_goblet_name		Golden Goblet	Chiếc cốc vàng
+card_goblin_description		A monster with bad posture	Một con quái vật với tướng đứng xấu
+card_goblin_name		Goblin	Goblin
+card_gold_description		Humanity's best friend	Bạn thân nhất của loài người
+card_gold_name		Coin	Đồng xu
+card_graveyard_description		Very different from a normal yard	Rất là khác với 1 cái sân bình thường
+card_graveyard_name		Graveyard	Nghĩa địa
+card_graveyard_status		Exploring Graveyard	Đang thám hiểm nghĩa địa
+card_house_description		A nice place to live	Một nơi tốt để ở
+card_house_name		House	Nhà
+card_iron_bar_description		A shiny, valuable material	Một vật liệu ánh kim và có giá trị
+card_iron_bar_name		Iron Bar	Thanh sắt
+card_iron_deposit_description		Contains Iron Ore	Có chứa quặng sắt
+card_iron_deposit_name		Iron Deposit	Vỉa quặng sắt
+card_iron_deposit_status		Punching Deposit	Đang đấm vỉa quặng
+card_iron_ore_description		Can be turned into Iron Bars	Có thể biển thành thanh sắt
+card_iron_ore_name		Iron Ore	Quặng sắt
+card_key_description		I wonder what it's for..	Dùng để mở gì vậy ta?
+card_key_name		Key	Chìa khoá
+card_kid_description		A young'un. Needs a House to grow up in.	Một đứa bé con. Cần một căn nhà để lớn lên.
+card_kid_name		Baby	Em bé
+card_lumbercamp_description		An unlimited resource of Wood	Nơi cung cấp gỗ vô hạn định
+card_lumbercamp_name		Lumber Camp	Trại gỗ
+card_lumbercamp_status		Logging in Camp	Đang chặt gỗ
+card_map_description		Use a Map to turn a Villager into an Explorer	Dùng bản đồ để đào tạo dân làng thành nhà thám hiểm
+card_map_name		Map	Bản đồ
+			
+card_market_name		Market	Chợ
+card_militia_description		Slower at working, better at fighting	Làm việc chậm nhưng đánh nhau giỏi
+card_militia_name		Militia	Dân quân
+card_milk_description		Fresh from the Cow	Được vắt thẳng từ bò
+card_milk_name		Milk	Sữa bò
+card_milkshake_description		It's Berry flavoured	Sữa này có vị quả dâu dại
+card_milkshake_name		Milkshake	Sữa lắc
+card_mountain_description		A hill with a pointy edge	Ngọn đồi với đỉnh nhọn
+card_mountain_name		Mountain	Núi
+card_mountain_status		Exploring Mountain	Đang thám hiểm núi
+card_mushroom_description		An edible fungus	Nấm có thể ăn được
+card_mushroom_name		Mushroom	Nấm
+card_old_tome_description		A book with some Idea in it	Một cuốn sách với 1 vài ý tưởng trong đó
+card_old_tome_name		Old Tome	Cổ thư
+card_old_tome_status		Studying Old Tome	Đang đọc Cổ thư
+card_old_village_description		A person is rumored to still live here..	Nghe đồn là vẫn có người sống ở đây...
+card_old_village_name		Old Village	Làng cổ
+card_old_village_status		Exploring Old Village	Đang thám hiểm làng cổ
+card_omelette_description		Pépin would be proud	Pépin sẽ cảm thấy tự hào
+card_omelette_name		Omelette	Trứng chiên
+card_onion_description		Can be eaten raw or can be cooked, whichever you prefer	Có thể ăn sống hoặc nấu lên, tuỳ ý bạn
+card_onion_name		Onion	Hành
+card_plains_description		The great outdoors	Vùng ngoại ô
+card_plains_name		Plains	Đồng bằng
+card_plains_status		Exploring Plains	Đang thám hiểm đồng bằng
+card_plank_description		A strong building material	Vật liệu xây dựng vững chắc
+card_plank_name		Plank	Phản gỗ
+card_poop_description		It looks stinky	Mùi hơi hôi
+card_poop_name		Poop	Phân
+card_potato_description		Smooth and starchy, but should be cooked first	Mịn và nhiều tinh bột, nhưng nên nấu chín trước
+card_potato_name		Potato	Khoai tây
+card_quarry_description		An unlimited resource of Stone	Nơi cung cấp Đá vô hạn định
+card_quarry_name		Quarry	Mỏ đá
+card_quarry_status		Mining in Quarry	Đang đào đá
+card_rabbit_description		Fluffy poop machine	Cục lông hay ỉa
+card_rabbit_name		Rabbit	Thỏ
+card_rat_description		Small version of a Giant Rat	Bản thu nhỏ của chuột bự
+card_rat_name		Rat	Chuột nhắt
+card_raw_meat_description		Should be cooked first	Nên nấu trc khi ăn
+card_raw_meat_name		Raw Meat	Thịt sống
+card_rock_description		It looks sturdy, yet punchable	Trông cứng nhưng có thể đấm được
+card_rock_name		Rock	Tảng đá
+card_rock_status		Punching Rock	Đang đấm tảng đá
+card_sawmill_description		Quickly turns Wood into Planks	Chẻ gỗ thành phản một cách nhanh chóng
+card_sawmill_name		Sawmill	Xưởng cưa
+card_shed_description		Increases your Card Cap by 4	Nâng giới hạn thẻ bài thêm 4
+card_shed_name		Shed	Nhà kho
+card_skeleton_description		A monster consisting of a set of bones	Một loại quái vật được tạo nên từ một bộ xương
+card_skeleton_name		Skeleton	Bộ xương di động
+card_slime_description		3 small slimes in a trench coat	3 quái slime trong một cái áo bành tô
+card_slime_name		Slime	Slime
+card_small_slime_description		A goodie-filled goo	Một cục chất nhầy
+card_small_slime_name		Small Slime	Slime nhỏ
+card_soil_description		A simple and slow way of growing Food	Một nơi để trồng Thức ăn một cách chậm chạp
+card_soil_name		Soil	Đất
+card_spear_description		Stick with a pointy end	Gậy có đầu nhọn
+card_spear_name		Spear	Giáo
+card_stew_description		A hearty meal	Một bữa ăn no nê
+card_stew_name		Stew	Súp
+card_stick_description		Used to be part of a Tree	Đã từng là một phần của một cái cây
+card_stick_name		Stick	Nhánh cây
+card_stone_description		A simple resource	Một loại vật liêu đơn giản
+card_stone_name		Stone	Đá
+card_stove_description		Cooks faster than a Campfire	Nấu nhanh hơn lửa trại
+card_stove_name		Stove	Bếp
+card_strange_portal_description		It looks threatening	Trông đáng sợ
+card_strange_portal_name		Strange Portal	Kỳ môn
+card_sword_description		An Iron Bar with a pointy end	Một thanh sắt có đầu nhọn
+card_sword_name		Sword	Kiếm
+card_swordsman_description		Slower at working, way better at fighting	Làm việc chậm nhưng đánh nhau giỏi hơn nhiều
+card_swordsman_name		Swordsman	Kiếm thủ
+card_temple_description		An important place of worship. It needs a mysterious artifact.	Một nơi dùng để tôn thờ. Cần đặt kỳ vật lên
+card_temple_name		Temple	Đền thờ
+card_travelling_cart_description		Give me 5 Coins and I'll give you a Card!	Cho tôi 5 xu và tôi sẽ cho bạn 1 lá bài!
+card_travelling_cart_name		Travelling Cart	Thương nhân
+card_treasure_chest_description		It's locked	Nó bị khoá
+card_treasure_chest_name		Treasure Chest	Rương báu
+card_tree_description		Made of Wood and Sticks	Được làm từ gỗ và nhánh cây
+card_tree_name		Tree	Cây
+card_tree_status		Punching Tree	Đang đấm cây
+card_villager_description		A hard-working pioneer	Một người tiên phong cần cù
+card_villager_name		Villager	Dân làng
+card_warehouse_description		Increases your Card Cap by 14	Nâng giới hạn thẻ bài thêm 14
+card_warehouse_name		Warehouse	Nhà kho lớn
+card_wolf_description		It looks vicious	Trông hung dữ
+card_wolf_name		Wolf	Sói
+card_wood_description		A simple resource	Một loại vật liệu đơn giản
+card_wood_name		Wood	Gỗ
+cardtype_food		Food	Đồ ăn
+cardtype_humans		Humans	Người
+cardtype_ideas		Ideas	Ý tưởng
+cardtype_locations		Locations	Địa danh
+cardtype_mobs		Mobs	Sinh vật
+cardtype_resources		Resources	Vật liệu
+cardtype_structures		Structures	Kiến trúc
+idea_animalpen_status_0		Building an Animal Pen	Cách xây chuồng gia súc
+idea_brick_status_0		Creating Brick	Cách đóng gạch
+idea_brickyard_status_0		Building a Brickyard	Cách xây sân đóng gạch
+idea_campfire_status_0		Starting a Campfire	Cách làm lửa trại
+idea_carving_status_0		Creating a Stick	Cách làm một cây gậy
+idea_chicken_status_0		Chicken is brooding	Gà đang ấp
+idea_coinchest_status_0		Making a Coin Chest	Cách làm rương xu
+idea_cookedmeat_status_0		Cooking Meat	Cách nấu thịt
+idea_farm_status_0		Building a Farm	Cách xây nông trại
+idea_frittata_status_0		Cooking Frittata	Cách nấu Frittata
+idea_fruitsalad_status_0		Making a Fruit Salad	Cách làm salad trái cây
+idea_garden_status_0		Building a Garden	Cách xây vườn
+idea_growth_name		Growth	Trưởng thành
+idea_growth_status_0		Growing a Berry Bush	Cách trồng bụi quả dâu dại
+idea_growth_status_1		Growing an Apple Tree	Cách trồng cây táo
+idea_growth_status_2		Growing Carrots	Cách trồng cà rốt
+idea_growth_status_3		Growing Onions	Cách trồng hành
+idea_growth_status_4		Growing Potatoes	Cách trồng khoai tây
+idea_growth_status_5		Growing Mushrooms	Cách trồng nấm
+idea_house_status_0		Building a House	Cách xây nhà
+idea_ironweapons_status_0		Creating Sword	Cách đúc kiếm
+idea_ironweapons_status_1		Training Swordsman	Cách đào tạo kiếm thủ
+idea_lumbercamp_status_0		Building a Lumber Camp	Cách xây trại gỗ
+idea_market_status_0		Building a Market	Cách xây chợ
+idea_milkshake_status_0		Making a Milkshake	Cách làm sữa lắc
+idea_mine_status_0		Building a Mine	Cách xây mỏ quặng sắt
+idea_offspring_name		Offspring	Em bé
+idea_offspring_status_0		Creating Offspring	Cách làm em bé
+idea_offspring_status_1		Creating Puppy	Cách làm chó con
+idea_omelette_status_0		Cooking an Omelette	Cách chiên trứng
+idea_planks_status_0		Creating Plank	Cách làm phản gỗ
+idea_quarry_status_0		Building a Quarry	Cách xây mỏ đá
+idea_sawmill_status_0		Building a Sawmill	Cách xây xưởng cưa
+idea_shed_status_0		Building a Shed	Cách xây nhà kho
+idea_smelting_status_0		Building a Smelter	Cách xây lò luyện
+idea_smelting_status_1		Smelting Iron	Cách nung sắt
+idea_stew_status_0		Cooking a Stew	Cách nấu súp
+idea_stove_status_0		Building a Stove	Cách xây bếp
+idea_temple_status_0		Building a Temple	Cách xây đền thờ
+idea_warehouse_status_0		Building a Warehouse	Cách xây nhà kho lớn
+idea_woodenweapons_status_0		Creating a Spear	Cách vọt giáo
+idea_woodenweapons_status_1		Training Militia	Cách đào tạo dân quân
+idea_woodenweapons_status_2		Training Explorer	Cách đào tạo nhà thám hiểm
+ideagroup_basic		Basic	Căn bản
+ideagroup_building		Building	Xây dựng
+ideagroup_cooking		Cooking	Nấu ăn
+ideagroup_military		Military	Quân đội
+ideagroup_resources		Resources	Vật liệu
+label_an_idea		An Idea	Một ý tưởng
+label_back		Back	Quay lại
+label_back_to_menu		Back to menu	Quay lại màn hình chính
+label_buy_packs_to_find_idea		Buy Packs to find this Idea	Mua Pack để kiếm ý tưởng
+label_cant_be_sold		Can't be sold	Không thể bán
+label_card_not_found		Card not yet found	Lá bài này chưa được tìm thấy
+label_cardopedia	The in-game encyclopedia for cards	Cardopedia	Bách khoa toàn thư lá bài
+label_cards_found		[found]/[total] Cards Found	[found]/[total] lá bài được tìm thấy
+label_cards_infobox		Your current maximum amount of Cards is [max_card_count]. You have [card_count] [cardicon] (does not include Coins)	Số lá bài tối đa bạn có thể có [max_card_count]. Bạn đang có [card_count] [cardicon] (không đếm đồng xu)
+label_cards_infobox_warning		You have too many [cardicon]. Get rid of Cards or you'll have to sell Cards at the end of the Moon!	Bạn có quá nhiều [cardicon]. Hãy bỏ bớt lá bài đi hoặc bạn sẽ phải bán bớt khi cuối tháng!
+label_clear_save		Clear Save	Xoá save
+label_clear_save_confirm		Are you sure you want to clear your save?	Bạn có chắc là bạn có muốn xoá save của bạn?
+label_click_this_pack		Click this Pack to get Cards!	Nhấn vào Gói để lấy Lá bài!
+label_coin_infobox_text		The total amount of Coins you have	Tổng số đồng xu của bạn
+label_coin_infobox_title		Coins	Xu
+label_combat_speed		Attack Speed:	Tốc độ đánh
+label_complete_more_quests		<one>Complete 1 more quest to unlock a new Pack!<other>Complete [remaining] more quests to unlock a new Pack!	<one>Hoàn thành thêm 1 nhiệm vụ để mở khoá 1 Gói mới!<other>Hoàn thành thêm [remaining] nhiệm vụ để mở khoá 1 Gói mới!
+label_complete_more_quests_for_pack		<one>Complete 1 more quest to unlock this Pack!<other>Complete [remaining] more quests to unlock this Pack!	<one>Hoàn thành thêm 1 nhiệm vụ để mở khoá Gói này!<other>Hoàn thành thêm [remaining] nhiệm vụ để mở khoá Gói này!
+label_completed_main_quest		You completed the Main Quest!	Bạn đã hoàn thành Nhiệm vụ Chính!
+label_continue		Continue	Tiếp tục
+label_continue_run		Continue Run (Moon [moon])	Tiếp tục ([moon] tháng)
+label_credits		Credits	
+label_damage		Damage:	Sát thương:
+label_drag_coins_to_buy_pack		Drag [cost][goldicon] here to buy this Pack	Kéo [cost][goldicon] vào đây để mua Gói này
+label_drop_to_sell		Drop to sell for [value]	Thả vào để bán với giá [value]
+label_eating		Eating..	Đang ăn..
+label_end_of_moon		End of Moon [moon]	Hết tháng [moon]
+label_everyone_fed		Everyone was fed!	Tất cả mọi người được ăn no!
+label_everyone_starved		Everyone starved to death!	Tất cả mọi người chết đói!
+label_feed_villagers		Feed Villagers	Cho dân làng ăn
+label_foil	Term to describe a "shiny" card	(foil)	(hiếm)
+label_food_infobox		Every Moon you need [required_food_count] [foodicon] to feed your Humans. You currently have [food_count] [foodicon]	Mỗi tháng bạn cần [required_food_count] [foodicon] để cho dân của bạn ăn. Bạn hiện có [food_count] [foodicon]
+label_food_infobox_warning		Get [foodicon] so you won't lose your humans!	Kiếm [foodicon] để không bị mất dân của bạn!
+label_fullscreen		Fullscreen: [on_off]	Toàn màn hình: [on_off]
+label_game_options		Game Options	Tuỳ chọn
+label_game_over		Game Over	Kết thúc trò chơi
+label_goblet_brought_to_temple		The Goblet was brought to the Temple	Chiếc cốc vàng đã được đặt trong Đền thờ
+label_hit_chance		Hit Chance:	Độ chính xác:
+label_idea_fullname		Idea: [name]	Ý tưởng: [name]
+label_ideas		Ideas	Ideas
+label_ideas_found		[found]/[total] Ideas Found	[found]/[total] Ý tưởng được tìm thấy
+label_keep_playing		Keep playing to collect every Card!	Hãy tiếp tục chơi để phát hiện tất cả Lá bài!
+label_languages_title		Languages	Ngôn ngữ
+label_may_contain		May contain:	Có thể chứa:
+label_moon_length		Moon Length	Độ dài 1 tháng
+label_moon_length_long		Long	Dài
+label_moon_length_normal		Normal	Trung bình
+label_moon_length_short		Short	Ngắn
+label_moon_length_tooltip		The length of a Moon - longer is easier	Độ dài của 1 tháng - dài hơn thì dễ hơn
+label_music		Music: [on_off]	Nhạc: [on_off]
+label_new		New!	Mới!
+label_new_cards_found		<one>1 New Card Found<other>[count] New Cards Found	<one>1 Lá bài mới được tìm thấy<other>[count] Lá bài mới được tìm thấy
+label_new_pack_unlocked		New Pack Unlocked!	Gói mới đã được mở khoá
+label_new_run_confirm		Are you sure you want to start a new run? You'll lose the progress in your current run!	Bạn có chắc là muốn chơi mới? Bạn sẽ mất những gì đã có trong lần chơi này!
+label_nice		Nice!	Hay!
+label_no		No	Không
+label_off		Off	Tắt
+label_okay		Okay	Ok
+label_on		On	Bật
+label_options		Options	Tuỳ chọn
+label_pack_now_available		[pack] Pack is now available!	Gói [pack] đã có hàng
+label_paused		Paused	Tạm dừng
+label_peaceful_mode		Peaceful Mode	Chế độ yên bình
+label_peaceful_mode_tooltip		No enemies in Peaceful Mode	Không có quái vật trong chế độ yên bình
+label_quest		Quest	Nhiệm vụ
+label_quest_completed		Quest Completed!	Nhiệm vụ đã được hoàn thành!
+label_quest_not_possible_in_peaceful		Not possible in Peaceful Mode	Bất khả thi trong chế độ yên bình
+label_quests		Quests	Nhiệm vụ
+label_quests_completed		<one>1 Quest Completed<other>[count] Quests Completed	<one>Một nhiệm vụ đã được hoàn thành<other>[count] nhiệm vụ đã được hoàn thành
+label_quit		Quit	Thoát
+label_resolution		Resolution: [width]x[height]	Độ phân giải: [width]x[height]
+label_resolutions_title		Resolutions	Độ phân giải
+label_seconds_format		[seconds]s	[seconds] giây
+label_seconds_left_format		[seconds]s left	còn lại [seconds] giây
+label_select_language		Select Language	Chọn ngôn ngữ
+label_sell		Sell	Bán
+label_sell_cards_to_continue		Sell Cards to continue	Bán bớt lá bài để tiếp tục
+label_sell_x_cards		<one>Sell 1 Card<other>Sell [count] Cards	<one>Bán 1 lá bài<other>Bán [count] lá bài
+			
+label_sellbox_title		Selling Cards	Bán lá bài
+label_sfx		SFX: [on_off]	
+label_stack_of_cards		Stack of Cards	Chồng bài
+label_start_new_moon		Start New Moon	Bắt đầu tháng mới
+label_start_new_run		Start New Run	Bắt đầu lần chơi mới
+label_start_of_moon		Start of Moon [moon]	Bắt đầu tháng [moon]
+label_start_run		Start Run	Bắt đầu lần chơi
+label_start_the_ritual		Start the Ritual	Bắt đầu nghi thức
+label_starving_humans		<one>There is not enough Food.. 1 Human will starve of Hunger<other>There is not enough Food.. [count] Humans will starve of Hunger	<one>Không đủ đồ ăn.. Một dân làng sẽ chết đói<other>Không đủ đồ ăn.. [count] dân làng sẽ chết đói
+label_strange_portal_appeared		A Strange Portal Appeared	Một Kỳ môn đã xuất hiện
+label_time_to_eat		Time to eat	Đến giờ ăn
+label_timetext		Moon [moon]	Tháng [moon]
+label_timetext_peaceful		Moon [moon] - Peaceful Mode	Tháng [moon] - Chế độ yên bình
+			
+label_toggle_panel_title		Toggle Panel	Ẩn hiện Bảng
+label_too_many_cards		<one>You have 1 Card too many!<other>You have [count] Cards too many!	<one>Bạn đang có nhiều hơn tối đa 1 Lá bài!<other>Bạn đang có nhiều hơn tối đa [count] Lá bài!
+label_travelling_cart_appeared		A Travelling Cart Appeared	Một thương nhân đã xuất hiện
+label_uh_oh		Uh oh	Thôi rồi
+label_undiscovered_cards		<one>1 undiscovered Card<other>[count] undiscovered Cards	<one>Một lá bái chưa được tìm thấy<other>[count] lá bài chưa được tìm thấy
+label_well_done		Well done!	Tốt lắm!
+label_yes		Yes	Đúng vậy
+label_you_killed_the_demon		You killed the Demon!	Bạn đã giết Ác quỷ!
+label_you_reached_moon		You reached Moon [moon]	Bạn đã sống tới tháng [moon]
+pack_a_new_world_text	Name of your first Card Pack	A New World	Một thế giới mới
+pack_cuisine_text	Name of a Card Pack related to Cooking	Curious Cuisine	Món ngon đó đây
+pack_explorers_text	Name of a Card Pack related to Exploring	Explorers	Nhà thám hiểm
+pack_farming_text	Name of a Card Pack related to Farming	Reap & Sow	Trồng trọt
+pack_humble_beginnings_text	Name of a Card Pack related to Beginning	Humble Beginnings	Khởi đầu khiêm tốn
+pack_logic_reason_text	Name of a Card Pack related to Ideas	Logic and Reason	Những điều suy ngẫm
+pack_order_structure_text	Name of a Card Pack related to Ideas	Order and Structure	Kiến trúc và quy hoạch
+pack_seeking_wisdom_text	Name of a Card Pack related to Ideas	Seeking Wisdom	Tìm hiểu sâu hơn
+quest_3_villagers_text		Get 3 Villagers	Tìm được 3 dân làng
+quest_bring_goblet_text		Bring the Goblet to the Temple	Đặt chiếc cốc vàng vào Đền thờ
+quest_build_3_houses_text		Have 3 Houses	Xây 3 căn nhà
+quest_build_farm_text		Build a Farm	Xây 1 trang trại
+quest_build_house_text		Build a House	Xây 1 căn nhà
+quest_build_temple_text		Build a Temple	Xây 1 đền thờ
+quest_buy_booster_text	Name used in "pack_a_new_world_text" key	Buy the Humble Beginnings Pack	Mua Gói Khởi đầu khiêm tốn
+quest_buy_from_travelling_cart_text		Buy something from a Travelling Cart	Mua từ thương nhân
+quest_carve_stick_text		Make a Stick from Wood	Vọt một cây gậy từ gỗ
+quest_cook_frittata_text		Cook a Frittata	Nấu 1 đĩa Frittata
+quest_cook_meat_text		Cook Raw Meat	Nấu thịt
+quest_cook_omelette_text		Cook an Omelette	Chiên trứng
+quest_create_brickyard_text		Build a Brickyard	Xây 1 sân đóng gạch
+quest_create_lumbercamp_text		Build a Lumber Camp	Xây 1 trại gỗ
+quest_create_offspring_text		Create Offspring	Sinh 1 đứa bé
+quest_create_quarry_text		Build a Quarry	Xây 1 mỏ đá
+quest_create_shed_text		Build a Shed	Xây 1 nhà kho
+quest_explore_forest_text		Explore a Forest	Thám hiểm rừng
+quest_explore_mountain_text		Explore a Mountain	Thám hiểm núi
+quest_find_catacombs_text		Find the Catacombs	Tìm hầm mộ
+quest_find_goblet_text		Find a mysterious artifact	Tìm kỳ vật
+quest_find_graveyard_text		Find a Graveyard	Tìm nghĩa địa
+quest_get_a_dog_text		Get a Dog	Thuần hoá 1 con chó
+quest_get_iron_bar_text		Get an Iron Bar	Đúc 1 thanh sắt
+quest_have_gold_text		Have [count] Coins	Có [count] xu
+quest_have_10_ideas_text		Have 10 Ideas	Có 10 ý tưởng
+quest_have_10_stone_text		Have 10 Stone	Có 10 cục đá
+quest_have_10_wood_text		Have 10 Wood	Có 10 khúc gỗ
+quest_have_food_text		Have [count] Food	Có [count] đồ ăn
+quest_have_5_ideas_text		Have 5 Ideas	Có 5 ý tưởng
+quest_kill_a_rat_text		Kill a Rat	Tiêu diệt 1 con chuột nhắt
+quest_kill_a_skeleton_text		Kill a Skeleton	Tiêu diệt 1 bộ xương di động
+quest_kill_demon_text		Kill the Demon	Tiêu diệt Ác quỷ
+quest_open_starter_pack_text		Open the Booster Pack	Mở một Gói bài
+quest_open_treasure_chest_text		Open a Treasure Chest	Mở một rương báu
+quest_pick_berrybush_text		Drag the Villager on top of the Berry Bush	Kéo dân làng vào Bụi quả dâu dại
+quest_plant_berry_bush_text		Grow a Berry Bush	Ươm 1 bụi quả dâu dại
+quest_punch_rock_text		Punch a Rock	Đấm 1 tảng đá
+quest_punch_tree_text		Punch a Tree	Đấm 1 cái cây
+quest_reach_month_text		Reach Moon [count]	Sống tới tháng [count]
+quest_second_villager_text		Get a Second Villager	Tìm được dân làng thứ 2
+quest_sell_at_market_text		Sell a Card at a Market	Bán 1 lá bài ở Chợ
+quest_sell_card_text		Sell a Card	Bán 1 lá bài
+quest_start_campfire_text		Start a Campfire	Đốt 1 lửa trại
+quest_train_explorer_text		Train an Explorer	Đào tạo 1 Nhà thám hiểm
+quest_train_militia_text		Train Militia	Đào tạo Dân quân
+quest_unlock_all_packs_text		Unlock all Packs	Mở khoá tất cả cái Gói bài
+new_creating_graveyard		Creating Graveyard	Tạo ra nghĩa địa
+new_selling_card		Selling [card]	Bán [card]
+new_portal_shaking		The Portal is shaking	Cổng đang rung lắc
+new_growing_up		Growing up	Trưởng thành
+card_aquarium_description		Can hold 5 Fish	Có thể chứa 5 con cá
+card_aquarium_name		Aquarium	Bể cá
+card_banana_description		Everyone's favorite yellow fruit	Trái cây màu vàng mà ai cũng thích
+card_banana_name		Banana	Chuối
+card_banana_tree_description		Made of Bananas	Được làm từ nhiều nải Chuối
+card_banana_tree_name		Banana Tree	Cây Chuối
+card_banana_tree_status		Punching Banana Tree	Đang đấm cây Chuối
+card_boat_status		Sailing Off	Giương buồm
+card_bottle_of_rum_description		Be careful: gets Villagers drunk!	Cẩn thận: khiến cho dân làng bị say!
+card_bottle_of_rum_name		Bottle of Rum	Chai rượu Rum
+card_bottle_of_water_description		A transparent bottle filled with transparent liquid	Chai trong suốt chứa chất lỏng trong suốt
+card_bottle_of_water_name		Bottle of Water	Chai nước
+card_captain_description		An expert in naval travel, sails off faster	Chuyên gia lái tàu biển, đi biến nhanh hơn
+card_captain_name		Captain	Thuyền trưởng
+card_cathedral_description		An important place of worship. It needs a relic.	Một nơi để tôn thờ. Cần đặt 1 thánh vật vào.
+card_cathedral_name		Cathedral	Nhà thờ
+card_cave_description		Pirates used to keep their Treasure Maps in these..	Cướp biển hay cất bản đồ kho báu trong này
+card_cave_name		Cave	Hang động
+card_cave_status		Exploring Cave	Đang thám hiểm hang động
+card_ceviche_description		Sour fish, what's not to like	Cá lên men, có gì để không thích
+card_ceviche_name		Ceviche	Ceviche
+card_charcoal_description		Functions as an antidote for Snake Poison	Giải dược cho độc từ rắn
+card_charcoal_name		Charcoal	Than hoạt tính
+card_chili_pepper_description		Nice and spicy	Ngon và cay
+card_chili_pepper_name		Chili Pepper	Ớt
+card_coconut_description		It's a fruit, not a nut!	Quả là trái cây, ko phải là hạt
+card_coconut_name		Coconut	Quả dừa
+card_coconut_piece_description		Tropical!	Nhiệt đới!
+card_coconut_piece_name		Coconut Piece	Miếng dừa
+card_coconut_tree_description		Made of Coconuts	Được làm từ quả dừa
+card_coconut_tree_name		Coconut Tree	Cây dừa
+card_coconut_tree_status		Punching Coconut Tree	Đang đấm cây dừa
+card_cod_description		A type of fish	Một loại cá
+card_cod_name		Cod	Cá tuyết
+card_coin_chest_description		A chest that can hold Coins	Rương để đựng xu
+card_coin_chest_description_long		A chest that can hold Coins. Click to remove Coins. Contains [count]/[max_count][goldicon]	Rương để đựng xu. Nhấp để lấy xu ra. Đang chứa [count]/[max_count][goldicon]
+card_coin_chest_name		Coin Chest	Rương đựng xu
+card_composter_description		Turns 5 Food into Soil	Biến 5 đồ ăn thành đất
+card_composter_name		Composter	Thùng ủ
+card_cooked_crab_meat_description		It's fancy	Thật là sang trọng
+card_cooked_crab_meat_name		Cooked Crab	Cua luộc
+card_cooked_fish_description		I can taste the grill marks	Có thể nếm được vết nướng
+card_cooked_fish_name		Grilled Fish	Cá nướng
+card_cotton_description		Nature's wool	Lông cừu thiên nhiên
+card_cotton_name		Cotton	Bông
+card_cotton_plant_description		Can be harvested for Cotton	Có thể gặt để lấy Bông
+card_cotton_plant_name		Cotton Plant	Cây Bông
+card_cotton_plant_status		Harvesting Cotton Plant	Đang gặt cây Bông
+card_crab_description		Why does everything evolve into crabs?	Tại sao mọi thứ đều tiến hoá thành Cua?
+card_crab_name		Crab	Cua
+card_demon_lord_description		The final, final boss!	Boss cuối cuối!
+card_demon_lord_name		Demon Lord	Chúa quỷ
+card_distillery_description		Used for making booze	Dùng để làm rượu
+card_distillery_name		Distillery	Nhà cất rượu
+card_driftwood_description		A bunch of wood that has washed ashore	Một đống gỗ trôi dạt vào bờ biển
+card_driftwood_name		Driftwood	Gỗ trôi dạt
+card_driftwood_status		Rummaging through Driftwood	Đang lục trong đống gỗ trôi dạt
+card_eel_description		Electric sea snake	Rắn biển có điện
+card_eel_name		Eel	Lươn
+card_empty_bottle_description		Made of Glass. Can be refilled!	Được làm từ thuỷ tinh. Có thể đổ đầy!
+card_empty_bottle_name		Empty Bottle	Chai không
+card_fabric_description		Fibres. together. strong.	Sợi. Để chung. Chắc chắn.
+card_fabric_name		Fabric	Vải
+card_fish_trap_description		Needs a type of Food as bait	Cần đồ ăn làm mồi
+card_fish_trap_name		Fish Trap	Bẫy cá
+card_fish_trap_status		Catching Fish	Đang bắt cá
+card_fisher_description		An expert at fishing. Fish fear him	Chuyên gia câu cá. Cá sợ anh ta.
+card_fisher_name		Fisher	Người câu cá
+card_fishing_rod_description		Give it to a Villager to turn them into a Fisher	Đưa cho dân làng để họ biến thành Người câu cá
+card_fishing_rod_name		Fishing Rod	Cần câu
+card_fishing_spot_description		A body of water filled with Fish	Một vùng nước chứa đầy Cá
+card_fishing_spot_name		Fishing Spot	Nơi câu cá
+card_fishing_spot_status		Fishing	Đang câu cá
+card_friendly_pirate_description		It has joined your side	Hắn đã theo phe của bạn
+card_friendly_pirate_name		Friendly Pirate	Cướp biển hoàn lương
+card_frigate_description		Can carry 25 Cards. Needs a Villager to start sailing. Can't carry Buildings	Có thể chở 25 lá bài. Cần 1 dân làng để giương buồm. Không thể chứa Kiến trúc.
+card_frigate_name		Frigate	Tàu chiến
+card_glass_description		A transparent resource	Một vật liệu trong suốt
+card_glass_name		Glass	Thuỷ tinh
+card_gold_bar_description		A very shiny, very valuable material	Một vật liệu rất sáng bóng, rất giá trị
+card_gold_bar_name		Gold Bar	Thanh vàng
+card_gold_deposit_description		It contains Gold Ore	Có chứa quặng Vàng
+card_gold_deposit_name		Gold Deposit	Vỉa quặng Vàng
+card_gold_deposit_status		Punching Gold Deposit	Đang đấm vỉa quặng Vàng
+card_gold_mine_description		An unlimited resource of Gold Ore	Nơi cung cấp quặng Vàng vô hạn định
+card_gold_mine_name		Gold Mine	Mỏ Vàng
+card_gold_mine_status		Working in Gold Mine	Đang đào mỏ Vàng
+card_gold_ore_description		Can be turned into Gold Bars	Có thể đúc thành thanh Vàng
+card_gold_ore_name		Gold Ore	Quặng Vàng
+card_goop_description		Smush, sludge, gunk: it's spoilt food	Nhão, ôi, cặn: đây là đồ ăn đã hư
+card_goop_name		Goop	Đồ ăn thiu
+card_greenhouse_description		A high-tech building for growing Food. Automatically replants crops.	Một kiến trúc chuyên để trông đồ ăn. Tự động trồng lại.
+card_greenhouse_name		Greenhouse	Nhà kính
+card_island_relic_description		Bring it to a Cathedral	Mang nó tới nhà thờ
+card_island_relic_name		Island Relic	Thánh vật của đảo
+card_jungle_description		A forest known for books	Rừng theo như trong sách
+card_jungle_name		Jungle	Rừng già
+card_jungle_status		Exploring Jungle	Đang thám hiểm Rừng già
+card_kraken_description		Mad that you took its relic	Tức giận vì bạn lấy thánh vật của nó
+card_kraken_name		Kraken	Kraken
+card_lime_description		Round and sour	Tròn và chua
+card_lime_name		Lime	Chanh
+card_mackerel_description		A type of fish	Một loại cá
+card_mackerel_name		Mackerel	Cá thu
+card_mess_hall_description		Villagers will prioritize eating food that's on top of the Mess Hall	Dân làng sẽ ưu tiên ăn đồ ăn để trên Nhà ăn
+card_mess_hall_name		Mess Hall	Nhà ăn
+card_message_in_a_bottle_description		It seems to have an Idea in it	Hình như là có Ý tưởng trong này
+card_message_in_a_bottle_name		Message in a Bottle	Tin nhắn trong chai
+card_message_in_a_bottle_status		Opening Bottle	Đang mở chai
+card_mine_description		An unlimited resource of Iron Ore	Nơi cung cấp quặng Sắt vô hạn định
+card_mine_name		Iron Mine	Mỏ Sắt
+card_mine_status		Working in Iron Mine	Đang đào mỏ Sắt
+card_momma_crab_description		Maybe you shouldn't have killed those Crabs?	Bạn ko nên giết nhiều Cua như vậy
+card_momma_crab_name		Momma Crab	Cua Mẹ
+card_monkey_description		Would really like a Banana	Rất là muốn 1 quả Chuối
+card_monkey_name		Monkey	Khỉ
+card_parrot_description		Talks like a human, flies like a bird. Makes Pirates happy	Nói chuyện như người, bay như chim. Khiến Cướp biển vui
+card_parrot_name		Parrot	Vẹt
+card_pirate_boat_description		A boat full of Pirates	Một thuyền đầy Cướp biển
+card_pirate_boat_name		Pirate Boat	Thuyền Cướp biển
+card_pirate_boat_status		We'll leave you alone for [count] Coins..	Chúng tao sẽ để yên cho mày với [count] xu..
+card_pirate_description		A burly angry seaman	Một thủy thủ vạm vỡ đang tức giận
+card_pirate_name		Pirate	Cướp biển
+card_raw_crab_meat_description		Should be cooked before consumption	Nên nấu trước khi ăn
+card_raw_crab_meat_name		Raw Crab Meat	Thịt cua sống
+card_raw_fish_description		It's slippery	Khá trơn
+card_raw_fish_name		Raw Fish	Thịt cá sống
+card_rope_description		Long and fibrous	Dài và nhiều sợi
+card_rope_name		Rope	Dây thừng
+card_rowboat_description		Can carry 1 Card. Needs a Villager to start sailing. Can't carry Buildings	Có thể chở 1 lá bài. Cần 1 dân làng để giương buồm. Không thể chứa Kiến trúc.
+card_rowboat_name		Rowboat	Xuồng
+card_sacred_chest_description		It needs a Sacred Key to be opened	Cần 1 chìa khoá quý để mở
+card_sacred_chest_name		Sacred Chest	Rương quý
+card_sacred_key_description		Forged with Glass and Gold. Used for opening the Sacred Chest.	Được đúc từ Thuỷ tinh và Vàng. Dùng để mở Rương quý
+card_sacred_key_name		Sacred Key	Chìa khoá quý
+card_sail_description		Used for making Boats	Dùng để làm thuyền
+card_sail_name		Sail	Buồm
+card_sand_description		The main ingredient for a nice beach	Thành phần chính của 1 bãi biển đẹp
+card_sand_name		Sand	Cát
+card_sand_quarry_description		An unlimited resource of Sand	Nơi cung cấp Cát vô hạn định
+card_sand_quarry_name		Sand Quarry	Mỏ Cát
+card_sand_quarry_status		Mining at Sand Quarry	Đang đào Cát
+card_sandstone_description		An alternative to Stone. Can be used for anything Stone is needed for.	Có thể thay thế cho Đá. Có thể dùng thay cho Đá nếu cần.
+card_sandstone_name		Sandstone	Đá cát
+card_seafood_stew_description		Delicious Island stew	Súp ngon ngoài đảo
+card_seafood_stew_name		Seafood Stew	Súp hải sản
+card_seagull_description		An angry bird	Một con chim hung dữ
+card_seagull_name		Seagull	Hải âu
+card_seaweed_description		Salad of the sea	Salad của biển
+card_seaweed_name		Seaweed	Rong biển
+card_shark_description		A type of big angry fish	Một loại cá lớn và hung dữ
+card_shark_name		Shark	Cá mập
+card_sheep_description		Fluffy!	Thật êm!
+card_sheep_name		Sheep	Cừu
+card_shell_chest_description		A chest that can hold Shells	Rương để đựng mảnh Sò
+card_shell_chest_description_long		A chest that can hold Shells. Click to remove Shells . Contains [count]/[max_count][shellicon]	Rương để đựng mảnh Sò. Nhấp để lấy mảnh Sò ra. Đang chứa [count]/[max_count][shellicon]
+card_shell_chest_name		Shell Chest	Rương mảnh Sò
+card_shell_description		The main currency on the Island	Tiền tệ chính trên Đảo
+card_shell_name		Shell	Mảnh Sò
+card_sloop_description		Can carry 10 Cards. Needs a Villager to start sailing. Can't carry Buildings	Có thể chở 10 lá bài. Cần 1 dân làng để giương buồm. Không thể chứa Kiến trúc.
+card_sloop_name		Sloop	Thuyền nhỏ
+card_smelter_description		Processes various materials by smelting them	Xử lý vật liệu bằng cách nấu chảy chúng
+card_smelter_name		Smelter	Lò luyện
+card_smelter_status		Smelting	Đang nung chảy
+card_snake_description		A slithering, poisonous creature	Một sinh vật có độc và hay trườn
+card_snake_name		Snake	Rắn
+card_spring_description		A water source. Can be used to fill Empty Bottles	Một nguồn nước. Có thể dùng để đổ đầy chai không
+card_spring_name		Spring	Suối
+card_sugar_cane_description		It's candy flavored grass	Cỏ có vị kẹo
+card_sugar_cane_name		Sugar Cane	Mía
+card_sugar_cane_status		Harvesting Sugar Cane	Đang gặt Mía
+card_sugar_description		Very sweet!	Rất ngọt!
+card_sugar_name		Cane Sugar	Đường Mía
+card_sushi_description		A delicious treat	Một món ăn ngon
+card_sushi_name		Sushi	
+card_tamago_sushi_description		Egg flavored sushi	Sushi vị trứng
+card_tamago_sushi_name		Tamago Sushi	
+card_tentacle_description		Wiggle wiggle wiggle	Lắc lư ngọ nguậy
+card_tentacle_name		Tentacle	Xúc tu
+card_tiger_description		A very strong cat	Một con mèo bự
+card_tiger_name		Tiger	Hổ
+card_trained_monkey_description		Can help you out with chores. Turns back into a normal Monkey at the end of the Moon	Có thể giúp việc cho bạn. Biến lại thành Khỉ thường vào cuối tháng
+card_trained_monkey_name		Trained Monkey	Khỉ đã huấn luyện
+card_treasure_map_description		X marks the spot. Needs to be searched with a Villager	Đã được đánh dấu X. Cần được tìm kiếm bởi dân làng
+card_treasure_map_name		Treasure Map	Bản đồ kho báu
+card_treasure_map_status		Looking for Treasure	Đang tìm kho báu
+card_tuna_description		A type of fish	Một loại cá
+card_tuna_name		Tuna	Cá ngừ
+card_wool_description		A soft resource	Một vật liệu mềm mại
+card_wool_name		Wool	Lông cừu
+cardtype_fish		Fish	Cá
+cardtype_rumors		Rumors	Tin đồn
+empty	Intentionally left blank		Cố tình để trống
+idea_aquarium_status_0		Building Aquarium	Cách xây bể cá
+idea_befriending_pirate_status		Befriending Pirate	Cách làm bạn với Cướp biển
+idea_bottle_status_0		Making Bottle	Cách đúc Chai
+idea_cathedral_status_0		Building Cathedral	Cách xây nhà thờ
+idea_ceviche_status		Making Ceviche	Cách làm Ceviche
+idea_charcoal_status		Making Charcoal	Cách làm than hoạt tính
+idea_charcoal_status_0		Making Charcoal	Cách làm than hoạt tính
+idea_compass_status		Making Compass	Cách làm la bàn
+idea_composter_status		Building Composter	Cách xây thùng ủ
+idea_composting_status		Composting	Cách ủ đồ ăn
+idea_cooked_crab_meat_status_0		Cooking Crab Meat	Cách nấu thịt cua
+idea_cooked_fish_status_0		Grilling Fish	Cách nướng cá
+idea_cracking_coconut_status		Cracking Coconut	Cách đập vỏ dừa
+idea_distillery_status		Building Distillery	Cách xây nhà cất rượu
+idea_eating_charcoal		Removing Poison	Cách trị độc
+idea_fabric_status		Making Fabric	Cách làm vải
+idea_filling_bottle_of_water		Filling Bottle	Cách đổ đầy chai
+idea_fish_trap_status		Building Fish Trap	Cách xây bẫy cá
+idea_fishing_rod_status		Making Fishing Rod	Cách làm cần câu
+idea_frigate_status0		Building a Frigate	Cách làm thuyền chiến
+idea_greenhouse_status_0		Building Greenhouse	Cách làm nhà kính
+idea_growth_name_status_10		Growing Chili Pepper	Cách trồng ớt
+idea_growth_name_status_9		Growing Lime	Cách trồng chanh
+idea_growth_status_6		Growing Banana Tree	Cách trồng cây chuối
+idea_growth_status_7		Growing Coconut Tree	Cách trồng cây dừa
+idea_growth_status_8		Growing Cotton Plant	Cách trồng cây bông
+idea_mess_hall_status		Building Mess Hall	Cách xây nhà ăn
+idea_rope_status		Making Rope	Cách bện dây thừng
+idea_rowboat_status0		Building a Rowboat	Cách làm xuồng
+idea_rum_status		Making Rum	Cách làm rượu Rum
+idea_sacred_key_status0		Forging Sacred Key	Cách đúc chìa khoá quý
+idea_sail_status0		Making a Sail	Cách làm buồm
+idea_sand_quarry_status		Building Sand Quarry	Cách làm mỏ cát
+idea_sandstone_status		Creating Sandstone	Cách làm đá cát
+idea_seafood_stew_status_0		Cooking Seafood Stew	Cách làm súp hải sản
+idea_shell_chest_status_0		Making Shell Chest	Cách làm rương mảnh sò
+idea_sloop_status0		Building a Sloop	Cách làm đồ ăn hư
+idea_smelting_glass_status		Creating Glass	Cách đúc thuỷ tinh
+idea_smelting_status_2		Smelting Gold	Cách nung chảy vàng
+idea_smelting_status_3		Making Coin	Cách làm xu
+idea_sushi_status		Making Sushi	Cách làm Sushi
+idea_tamago_sushi_status		Making Tamago Sushi	Cách làm Tamago Sushi
+idea_training_captain_status		Training Captain	Cách đào tạo thuyền trưởng
+idea_training_fisher_status		Training Fisher	Cách đào tạo người câu cá
+idea_training_monkey_status		Training Monkey	Cách huấn luyện khỉ
+ideagroup_fishing		Fishing	Cách câu cá
+ideagroup_important		Important	Quan trọng
+ideagroup_island		Island	Đảo
+ideagroup_sailing		Naval	Thuỷ chiến
+label_a_rumor		A Rumor	Một tin đồn
+label_awakened_something		You awakened something..	Bạn đã làm thức tỉnh một thứ gì đó..
+label_awakened_the_kraken		It's a Kraken!	Nó là Kraken!
+label_card_cap		Card Cap	Giới hạn lá bài
+label_complete_more_island_quests_for_pack		<one>Complete 1 more Island Quest to unlock this Pack!<other>Complete [remaining] more Island Quests to unlock this Pack!	<one>Hoàn thành thêm 1 nhiệm vụ ngoài đảo để mở khoá Gói này!<other>Hoàn thành thêm [remaining] nhiệm vụ ngoài đảo để mở khoá Gói này
+label_everyone_on_island_dead		Everyone on the Island died	Tất cả mọi người ngoài đảo đã chết
+label_everyone_on_island_dead_text		Your cards will stay here for when you return	Những lá bài của bạn sẽ ở yên đây cho tới khi bạn quay lại
+label_island_intro_1		Welcome to the Island	Chào mừng đến đảo
+label_island_intro_2		While at the Island you won't have to take care of the Mainland	Khi ở đảo bạn sẽ ko cần quan tâm tới đất liền
+label_island_intro_3		You can go back to the Mainland at any time using the Rowboat	Bạn có thể quay lại đất liền bất cứ khi nào với xuồng
+label_island_intro_4		The Rowboat can only carry a single card - other Boats allow you to bring more cards back and forth	Xuồng chỉ có thể chở 1 lá bài - những loại thuyền khác sẽ cho phép bạn chở nhiều lá bài hơn.
+label_island_intro_5		If all your Villagers die, you will be returned to the Mainland	Nếu tất cả dân làng của bạn chết, bạn sẽ quay lại đất liền
+label_island_intro_6		Good luck!	Chúc may mắn!
+label_island_intro_pack_text		You got a pack for beating the Demon	Bạn nhận được 1 gói bài do chiến thắng Ác quỷ
+label_island_intro_pack_title		Nice!	Tuyệt vời!
+label_island_intro_title		The Island!	Đảo!
+label_join_our_discord		Join our Discord	Hãy vào Discord của chúng tôi
+label_main_quests		Main Quests	Nhiệm vụ Chính
+label_momma_crab_appeared_text		She seems angry..	Mụ ta trông có vẻ tức giận..
+label_momma_crab_appeared_title		Momma Crab Appeared	Cua Mẹ đã xuất hiện
+label_no_ideas_yet		You haven't found any Ideas yet	Bạn chưa tìm thấy Ý tưởng nào
+label_one_villager_needs_to_stay		At least one Villager needs to stay on the Mainland	Ít nhất 1 dân làng phải ở lại đất liền
+label_pirate_boat_appeared		A Pirate Boat appeared	Thuyền cướp biển xuất hiện
+label_quests_complete_more_to_see		Complete more quests to see the next ones	Hoàn thành thêm nhiệm vụ để thấy những nhiệm vụ tiếp theo
+label_return_to_mainland		Return to Mainland	Quay lại đất liền
+label_rumor_full		Rumor: [name]	Tin đồn: [name]
+label_sailing_off_title		Sail Off	Ra khơi
+label_save_game		<b>Save [save_index]</b> - [percentage] complete - last played [date]	<b>Bản lưu [save_index]</b> - [percentage] hoàn thành - lần cuối chơi [date]
+label_save_games		Save Game	Lưu game
+label_select_save		Select Save	Chọn Bản lưu
+label_side_quests		Side Quests	Nhiệm vụ Phụ
+label_start_new_save		<b>Save [save_index]</b> - start new save	<b>Bản lưu[save_index]</b> - khởi đầu mới
+label_status_effect		Status: [status]	Trạng thái: [status]
+label_time		Time	Thời gian
+label_you_killed_the_demon_lord		You killed the Demon Lord	Bạn đã giết Chúa quỷ
+pack_island_advanced_text		Advanced Archipelago	Quen thuộc với quần đảo
+pack_island_cooking_text		Grilling and Brewing	Nướng và nấu rượu
+pack_island_ideas1_text		Island of Ideas	Ý tưởng ngoài đảo
+pack_island_ideas2_text		Island Insights	Tìm hiểu đảo
+pack_island_intro_text		The Island?	Đảo hoang?
+pack_island_locations_text		Enclave Explorers	Ốc đảo
+pack_island1_text		Fresh Isle	Chân ướt chân ráo
+pack_island2_text		On The Shore	Trên bãi biển
+quest_befriend_a_pirate_text		Befriend a Pirate	Làm bạn với 1 cướp biển
+quest_bribe_pirate_boat_text		Bribe a Pirate Boat	Hối lộ thuyền cướp biển
+quest_build_cathedral_text		Build a Cathedral on the Mainland	Xây 1 nhà thờ trên đất liền
+quest_build_composter_text		Build a Composter	Xây 1 thùng ủ
+quest_build_fish_trap_text		Build a Fish Trap	Xây 1 bẫy cá
+quest_build_greenhouse_text		Build a Greenhouse	Xây 1 nhà kính
+quest_build_mess_hall_text		Build a Mess Hall	Xây 1 nhà ăn
+quest_build_rowboat_text		Build a Rowboat	Làm 1 xuồng
+quest_build_sloop_text		Build a Sloop	Làm 1 thuyền nhỏ
+quest_catch_a_fish_text		Catch a Fish	Bắt 1 con cá
+quest_cook_crab_meat_text		Cook Crab Meat	Nấu thịt cua
+quest_crack_coconut_text		Crack a Coconut	Đâp vỏ dừa
+quest_cure_poison_text		Cure a Poisoned Villager	Trị độc cho dân làng
+quest_drunk_villager_text		Get a Villager Drunk	Làm 1 dân làng say
+quest_find_treasure_map_text		Find a Treasure Map	Tìm thấy 1 bản đồ kho báu
+quest_find_treasure_text		Find Treasure	Tìm thấy kho báu
+quest_forge_sacred_key_text		Forge Sacred Key	Đúc chìa khoá quý
+quest_get_2_bananas_text		Get 2 Bananas	Có 2 quả chuối
+quest_have_shells_text		Have [count] Shells	Có [count] mảnh sò
+quest_island_relic_to_cathedral_text		Bring the Island Relic to the Cathedral	Mang thánh vật đảo tới nhà thờ
+quest_kill_demon_lord_text		Kill the Demon Lord	Tiêu diệt Chúa quỷ
+quest_kill_kraken_text		Kill the Kraken	Tiêu diệt Kraken
+quest_kill_momma_crab_text		Kill Momma Crab	Tiêu diệt Cua mẹ
+quest_make_ceviche_text		Make Ceviche	Làm 1 đĩa Ceviche
+quest_make_fish_trap_text		Make a Fish Trap	Làm 1 bẫy cá
+quest_make_glass_text		Make Glass	Đúc thuỷ tinh
+quest_make_gold_bar_text		Make a Gold Bar	Đúc thanh Vàng
+quest_make_rope_text		Make Rope	Bện dây thừng
+quest_make_rum_text		Make a Bottle of Rum	Làm một chai rượu Rum
+quest_make_sail_text		Make a Sail	Làm 1 cánh buồm
+quest_make_sandstone_text		Make Sandstone	Làm đá cát
+quest_make_seafood_stew_text		Make a Seafood Stew	Làm súp hải sản
+quest_make_sushi_text		Make Sushi	Làm Sushi
+quest_open_message_in_a_bottle_text		Open a Message in a Bottle	Xem tin nhắn trong chai
+quest_open_sacred_chest_text		Open the Sacred Chest	Mở rương quý
+quest_poisoned_villager_text		Have a Poisoned Villager	Có một dân làng bị độc
+quest_punch_driftwood_text		Punch some Driftwood	Đấm gỗ dạt
+quest_train_a_fisher_text		Train a Fisher	Đào tạo 1 người câu cá
+quest_train_captain_text		Train a Captain	Đào tạo 1 thuyền trưởng
+quest_unlock_all_island_packs_text		Unlock all Island Packs	Mở khoá tất cả các Gói bài của Đảo
+questgroup_building		Construction	Xây dựng
+questgroup_cooking		Potluck	Lẩu thập cẩm
+questgroup_exploration		Discovery	Phát hiện mới
+questgroup_fighting		Power & Skill	Sức mạnh và kỹ năng
+questgroup_island		Island Ambitions	Tham vọng đảo hoang
+questgroup_island_beginnings		Marooned	Bị bỏ lại đảo hoang
+questgroup_island_combat		Enclave Encounters	
+questgroup_island_cooking		Island Grub	
+questgroup_island_mainquest		Mystery of the Island	
+questgroup_island_misc		Island Other	
+questgroup_mainquest		The Grand Scheme	
+questgroup_other		Other	
+questgroup_resources		Ways and Means	
+questgroup_starter		Welcome	
+questgroup_survival		Longevity	
+rumor_eel_bait_description		When using a Fish Trap, Banana can be used to catch Eel	Khi bẫy cá, có thể dùng chuối để bắt lươn
+rumor_eel_bait_name		Eel Bait	Mồi lươn
+rumor_island_description		Gold and Glass can be found on the Island	Có thể tìm thấy Vàng và Thuỷ tinh trên đảo
+rumor_island_name		The Island	Đảo
+rumor_shark_bait_description		When using a Fish Trap, Raw Meat can be used to catch Shark	Khi bẫy cá, có thể dùng thịt sống để bắt cá mập
+rumor_shark_bait_name		Shark Bait	Mồi cá mập
+rumor_tuna_bait_description		When using a Fish Trap, Lime can be used to catch Tuna	Khi bẫy cá, có thể dùng chanh để bắt cá ngừ
+rumor_tuna_bait_name		Tuna Bait	Mồi cá ngừ
+statuseffect_drunk_description		Decreases work speed, decreases hit chance, increases max damage	Giảm tốc độ làm việc, giảm độ chính xác, tăng sát thương tối đa
+statuseffect_drunk_lore		Enjoy responsibly	Thưởng thức có trách nhiệm
+statuseffect_drunk_name		Drunk	Say
+statuseffect_poison_description		Deals damage every 60s	Bị tổn thương mỗi 60 giây
+statuseffect_poison_lore		Dangerous poison runs through their veins, they need an antidote as soon as possible	Độc ngấm vào mạch máu, cần được trị độc sớm nhất có thể
+statuseffect_poison_name		Poisoned	Bị trúng độc
+statuseffect_spoiling_description		Will turn into Goop after 1 Moon	Sẽ biến thành đồ ăn hư sau 1 tháng
+statuseffect_spoiling_lore		Left out in the sun for a bit too long	Để ngoài trời hơi lâu
+statuseffect_spoiling_name		Spoiling	Bắt đầu bị thiu
+statuseffect_stunned_description		Unable to attack for 5s	Không thế tấn công trong 5 giây
+statuseffect_stunned_lore		That hit really hurt..	Cú đó đau quá..
+statuseffect_stunned_name		Stunned	Bị choáng
+statuseffect_wellfed_description		Increases work speed	Tăng tốc độ làm việc
+statuseffect_wellfed_lore		The hearty meal did them well	Ăn uống no nê tăng năng suất làm việc
+statuseffect_wellfed_name		Well Fed	No căng
+label_sailing_off_full		Sailing Off	Đang ra khơi
+language_dutch		Dutch	Tiếng Hà Lan
+language_french		French	Tiếng Pháp
+language_german		German	Tiếng Đức
+language_italian		Italian	Tiếng Ý
+language_polish		Polish	Tiếng Ba Lan
+language_spanish		Spanish	Tiếng Tây Ban Nha
+credits_aran		Concept, programming, design	Khái niệm, lập trình, thiết kế
+credits_lisa		Game art	Đồ hoạ
+credits_sokpop		Game by Sokpop	Trò chơi bỏi Sokpop
+credits_local_heroes		Localisation	Dịch giả
+credits_special_thanks		Special Thanks	Đặc biệt cảm ơn
+label_relic_brought_to_cathedral		The Relic was brought to the Cathedral	Thánh vật đã được đặt vào Nhà thờ
+label_controls		Controls	Tốc độ
+control_time_1		1x Speed	Tốc độ bình thường
+control_time_2		5x Speed	Tốc độ gấp 5 lần
+control_time_3		0x Speed	Tốc độ về 0
+control_time_pause		Pause Time	Tạm dừng thời gian
+control_panel_collapse		Toggle Sidebar	Ẩn hiện thanh bên
+control_zoom		Zoom	Phóng to
+control_sell		Sell Card	Bán lá bài
+control_time_toggle		Toggle Time	Ẩn hiện thời gian
+control_pause		Pause Game	Tạm dừng
+control_grab		Grab	Nhặt lên
+control_activate_UI		Activate UI	Hiện Giao diện
+control_move		Move	Di chuyển
+control_snap_move		Snap Move	Khoá sau khi di chuyển
+control_snap_cards		Snap Cards To Grid	Khoá lá bài vào lưới
+label_keyboard_mouse		Keyboard & Mouse	Bàn phím và Chuột
+label_controller		Controller	Tay cầm
+label_waiting_for_input		Waiting for input	Đang đợi nhập
+label_sellbox_description		Drag Cards here to sell them. You can also use [action_sell] to sell cards.	Kéo lá bài vào đây để bán. Bạn cũng có thể nhấn [action_sell] để bán.
+label_time_infobox	Controls can now be rebound, so that the parameters will be replaced with the appropriate key	The current Time. Use [action_time_pause] to pause or use [action_time_toggle] to toggle between Game Speeds	Thời gian hiện tại. Nhấn [action_time_pause] để tạm dừng hoặc nhấn [action_time_toggle] để chuyển đổi giữa các tốc độ trò chơi
+label_toggle_panel_text	Controls can now be rebound, so that the parameters will be replaced with the appropriate key	Press this button or press [action_panel_collapse] to toggle the Quests and Ideas Tab	Nhấn nút này hoặc nhấn [action_panel_collapse] để ẩn/hiện Bảng nhiệm vụ và ý tưởng
+label_auto_pause_controller		Automatically pause time when dragging cards (controller):	Tự động dừng thời gian khi kéo lá bài (tay cầm):
+label_auto_pause_keyboardmouse		Automatically pause time when dragging cards (keyboard):	Tự động dừng thời gian khi kéo lá bài (bàn phím):
+label_binding	Used when rebinding a control to a key	Assigning [control]	Gán [control]
+label_accessibility		Accessibility	Trợ năng
+language_portuguese		Brazilian Portuguese	Tiếng Bồ Đào Nha(Brazil)
+language_chinese		Chinese	Tiếng Trung
+language_japanese		Japanese	Tiếng Nhật
+language_korean		Korean	Tiếng Hàn
+label_progress_stored		Progress will be saved	Quá trình chơi sẽ được lưu
+label_go_to_island_prompt		Are you sure you want to travel to the Island? This will first end the current Moon and feed your Villagers	Bạn có chắc là muốn ra đảo? Tháng này sẽ kết thúc và dân làng của bạn sẽ bắt đầu ăn.
+label_return_to_mainland_prompt		Are you sure you want to travel back to the Mainland? This will first end the current Moon and feed your Villagers	Bạn có chắc là muốn về đất liền? Tháng này sẽ kết thúc và dân làng của bạn sẽ bắt đầu ăn.
+label_not_enough_food_before_sailing		You need to have enough Food for your Villagers before you can sail off	Bạn không có đủ đồ ăn cho dân làng trước khi ra khơi
+idea_growth_status_11		Growing Seaweed	Đang trồng rong biển
+card_market_description		Can be used to sell Cards for more than usual	Có thể dùng để bán lá bài với giá cao hơn bình thường
+idea_growth_status_12		Growing Sugar Cane	Đang trồng mía
+label_framerate_cap		Framerate limit: [fps_cap]	
+label_framerate_unlimited		None	
+label_framerate_30		30 FPS	
+label_framerate_60		60 FPS	
+label_framerate_120		120 FPS	
+credits_wouter		Programming	Lập trình viên

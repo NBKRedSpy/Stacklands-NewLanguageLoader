@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFramework>netstandard2.1</TargetFramework>
+	  <LangVersion>8.0</LangVersion>
+	  <ModDeployDir>%localappdata%low\sokpop\Stacklands\Mods</ModDeployDir>
+    <GameDir Condition="'$(GameDir)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Stacklands\</GameDir>
+    <RootNamespace>$(MSBuildProjectName.Replace("-", "_"))</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>$(GameDir)\Stacklands_Data\Managed\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="GameScripts">
+      <HintPath>$(GameDir)\Stacklands_Data\Managed\GameScripts.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\Games\Steam\steamapps\common\Stacklands\Stacklands_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SokLoc">
+      <HintPath>D:\Games\Steam\steamapps\common\Stacklands\Stacklands_Data\Managed\SokLoc.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameDir)\Stacklands_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="manifest.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="workshop.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetFileName)&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)manifest.json&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)workshop.txt&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;REM if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\icon.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;" />
+  </Target>
+
+</Project>

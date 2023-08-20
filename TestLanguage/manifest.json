@@ -1,0 +1,9 @@
+{
+    "name": "Test Language",
+    "id": "Test_Language",
+    "version": "1.0.0",
+    "description": "Test Language",
+    "dependencies": [
+        "Stacklands_NewLanguageLoader"
+    ]
+}
