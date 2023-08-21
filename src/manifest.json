@@ -2,6 +2,6 @@
     "name": "Stacklands New Language Loader",
     "assembly": "Stacklands_NewLanguageLoader.dll",
     "id": "Stacklands_NewLanguageLoader",
-    "version": "0.2.0-alpha",
-    "description": ""
+    "version": "1.0.1",
+    "description": "Loads user create translations into Stacklands."
 }

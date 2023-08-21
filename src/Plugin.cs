@@ -72,19 +72,23 @@ namespace Stacklands_NewLanguageLoader
 log if that mod did not have a 
 {LanguageInfoLoader.LanguageDataFileName}' file.
 This is not an error as a required or optional dependency doesn't necessarily
-mean it is a new language mod"
+mean it is a new language mod",
+					RestartAfterChange = true,
 				});
 
 			DumpLanguage = Config.GetEntry<bool>("Dump Game's Localizations",false, new ConfigUI() {
 Tooltip = @"Debug: On startup, save the game's default localization
-data to a lang.tsv file in the mod's directory"});
+data to a lang.tsv file in the mod's directory",
+				RestartAfterChange = true,
+			});
 
 			DisableStackMessages = Config.GetEntry<bool>("Debug: Disable Stack Trace", false,
 				new ConfigUI
 				{
 					Tooltip =
 @"Debug: Make the log file more compact for mod info and warning logs by not including
-the stack trace.  This will affect all mods"
+the stack trace.  This will affect all mods",
+					RestartAfterChange = true,
 				});
 		}
 
