@@ -29,3 +29,12 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 [Gear icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/gear)
 
 [Language icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/language)
+
+# Change Log
+## 1.1.0
+
+Fix:  A disabled mod could prevent language packs from loading.
+
+Added a "Set Language" button on the main menu.  Allows users to change the language by just searching for the icon, rather than going through several screens in a foreign language.
+
+Moved new languages to the top of the languages for better visibility.
