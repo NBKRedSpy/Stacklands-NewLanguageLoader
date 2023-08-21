@@ -23,9 +23,18 @@
     <Reference Include="SokLoc">
       <HintPath>D:\Games\Steam\steamapps\common\Stacklands\Stacklands_Data\Managed\SokLoc.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:\Games\Steam\steamapps\common\Stacklands\Stacklands_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.CoreModule">
       <HintPath>$(GameDir)\Stacklands_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>$(GameDir)\Stacklands_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>$(GameDir)\Stacklands_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
 
@@ -43,7 +52,7 @@
 
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetFileName)&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)manifest.json&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)workshop.txt&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\icon.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;" />
+    <Exec Command="if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetFileName)&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)manifest.json&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)workshop.txt&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\icon.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\language-small.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;&#xD;&#xA;" />
   </Target>
 
 </Project>

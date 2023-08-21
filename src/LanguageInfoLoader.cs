@@ -29,7 +29,12 @@ namespace Stacklands_NewLanguageLoader
 
 			//Must load the languages manually since the new language mods do not show up in the 
 			//	LoadedMods until they are found, which will always be after this mod.
-			var languageMods = GetNewLanguageMods();
+
+			List<(string ManifestPath, ModManifest Manifest)> languageMods = GetNewLanguageMods();
+
+
+			Plugin.Log.Log($"Language counts: {languageMods.Count}");	
+
 
 			foreach ((string ManifestPath, ModManifest Manifest) languageMod in languageMods)
 			{
@@ -97,7 +102,7 @@ namespace Stacklands_NewLanguageLoader
 
 						if (SaveManager.instance.CurrentSave.DisabledMods.Contains(manifest.Id))
 						{
-							break;
+							continue;
 						}
 
 						if (
@@ -122,7 +127,7 @@ namespace Stacklands_NewLanguageLoader
 		private void RegisterLanguage(LanguageDefinition language)
 		{
 			var langs = SokLoc.Languages.ToList<SokLanguage>();
-			langs.Add(new SokLanguage { LanguageName = language.ColumnLanguageName, 
+			langs.Insert(0,new SokLanguage { LanguageName = language.ColumnLanguageName, 
 				UnitySystemLanguage = language.UnityLanguage});
 
 			SokLoc.Languages = langs.ToArray();

@@ -27,3 +27,5 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 
 # Credits:
 [Gear icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/gear)
+
+[Language icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/language)

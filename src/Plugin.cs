@@ -9,6 +9,7 @@ using System.Text;
 using System.Web;
 using HarmonyLib;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Stacklands_NewLanguageLoader
 {
@@ -17,6 +18,9 @@ namespace Stacklands_NewLanguageLoader
 		public static ModLogger Log;
 
 		public static readonly string ModManifestId = "Stacklands_NewLanguageLoader";
+
+		public static string ModsPath;
+
 
 		/// <summary>
 		/// Adds a debug entry for any manifests that are missing.
@@ -38,6 +42,7 @@ namespace Stacklands_NewLanguageLoader
 		{
 
 			Log = Logger;
+			ModsPath = this.Path;
 
 			InitConfigEntries();
 
@@ -51,7 +56,6 @@ namespace Stacklands_NewLanguageLoader
 				Application.SetStackTraceLogType(LogType.Log, StackTraceLogType.None);
 				Application.SetStackTraceLogType(LogType.Warning, StackTraceLogType.None);
 			}
-
 
 			LanguageInfoLoader loader = new LanguageInfoLoader();
 
@@ -95,8 +99,6 @@ the stack trace.  This will affect all mods",
 		public override void Ready()
 		{
 
-			//This might work to force the language to refresh.
-			//SokLoc.instance.SetLanguage("Vietnamese");
 		}
 
 		private void ExtractLanguageData()
@@ -130,7 +132,6 @@ the stack trace.  This will affect all mods",
 
 			File.WriteAllText(filePath, sb.ToString());
 		}
-
 
 	}
 }
