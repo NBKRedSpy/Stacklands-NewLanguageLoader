@@ -42,6 +42,9 @@
     <None Update="Icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="localization.tsv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="manifest.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -52,7 +55,7 @@
 
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetFileName)&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)manifest.json&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)workshop.txt&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\icon.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\language-small.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;&#xD;&#xA;" />
+    <Exec Command="if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetFileName)&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)manifest.json&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)workshop.txt&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\icon.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(ProjectDir)..\media\language-small.png&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;if NOT &quot;$(ModDeployDir)&quot; == &quot;&quot; xcopy /f /i /y &quot;$(TargetDir)localization.tsv&quot; &quot;$(ModDeployDir)\$(TargetName)\&quot;&#xD;&#xA;" />
   </Target>
 
 </Project>

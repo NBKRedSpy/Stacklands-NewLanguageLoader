@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Web;
+using System.Xml.Linq;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
@@ -68,36 +69,35 @@ namespace Stacklands_NewLanguageLoader
 
 		private void InitConfigEntries()
 		{
-			LogAllMissingManifests = Config.GetEntry<bool>("Debug: Log any missing manifests", false,
-				new ConfigUI()
-				{
-					Tooltip =
-@$"For any mods that have this mod as a dependency or optional dependency, 
-log if that mod did not have a 
-{LanguageInfoLoader.LanguageDataFileName}' file.
-This is not an error as a required or optional dependency doesn't necessarily
-mean it is a new language mod",
-					RestartAfterChange = true,
-				});
-
-			DumpLanguage = Config.GetEntry<bool>("Dump Game's Localizations",false, new ConfigUI() {
-Tooltip = @"Debug: On startup, save the game's default localization
-data to a lang.tsv file in the mod's directory",
-				RestartAfterChange = true,
-			});
-
-			DisableStackMessages = Config.GetEntry<bool>("Debug: Disable Stack Trace", false,
-				new ConfigUI
-				{
-					Tooltip =
-@"Debug: Make the log file more compact for mod info and warning logs by not including
-the stack trace.  This will affect all mods",
-					RestartAfterChange = true,
-				});
+			LogAllMissingManifests = GetEntry(nameof(LogAllMissingManifests), false, false);
+			DumpLanguage = GetEntry(nameof(DumpLanguage), false, true);
+			DisableStackMessages = GetEntry(nameof(DisableStackMessages), false, false);
 		}
 
 		public override void Ready()
 		{
+
+		}
+
+
+		/// <summary>
+		/// Creates an Config Entry using localization entries.
+		/// </summary>
+		/// <typeparam name="T"></typeparam>
+		/// <param name="configPropertyName"></param>
+		/// <param name="defaultValue"></param>
+		/// <param name="displayText"></param>
+		/// <param name="toolTip"></param>
+		/// <param name="restartAfterChange"></param>
+		/// <returns></returns>
+		public ConfigEntry<T> GetEntry<T>(string configPropertyName, T defaultValue, bool restartAfterChange = false)
+		{
+			return Config.GetEntry<T>(configPropertyName, defaultValue, new ConfigUI()
+			{
+				NameTerm = string.Join("_", ModManifestId, configPropertyName,"Name"),
+				TooltipTerm = string.Join("_", ModManifestId, configPropertyName, "ToolTip"),
+				RestartAfterChange = restartAfterChange,
+			});
 
 		}
 
@@ -132,6 +132,7 @@ the stack trace.  This will affect all mods",
 
 			File.WriteAllText(filePath, sb.ToString());
 		}
+		
 
 	}
 }
