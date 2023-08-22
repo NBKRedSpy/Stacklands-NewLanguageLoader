@@ -1,10 +1,13 @@
 # Language Loader
 This mod allows users to create translations for Stacklands.  No software development skills required.
 
-# First Pass Note
-This first version of the mod does not support custom fonts.  
-The game's default font has characters from non English languages, but there may be some characters missing.  
-If there are characters that aren't displayed correctly, the new language may need to wait until the second version.
+# Character/Symbol Notes
+The game's default font supports many non English characters/symbols, but there may be some missing for certain languages.
+
+To quickly test if symbols are missing for the target language, go to the main menu's Cardopedia option.  In the search at the top, type or paste characters that are specific to the target language.  If the characters displayed are incorrect or appear as empty rectangles, a custom font will be needed.
+
+This version of the mod does not support loading custom fonts, but the goal is for future versions to do so.
+If this impacts your translation, please let me know and I'll try to prioritize adding the font functionality.
 
 # Overview:
 Here is a brief overview of what is involved.  
