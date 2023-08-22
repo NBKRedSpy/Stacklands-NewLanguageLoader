@@ -14,6 +14,8 @@ namespace Stacklands_NewLanguageLoader
 	public static class Example_Patch
 	{
 
+		private static CustomButton SetLanguageButton = null;
+
 		private static bool HasRun = false;
 		public static void Postfix()
 		{
@@ -50,7 +52,7 @@ namespace Stacklands_NewLanguageLoader
 				GameCanvas.instance.SetScreen<SelectLanguageScreen>();
 			};
 
-			btn.TextMeshPro.text = "Set Language";
+			btn.TextMeshPro.text = SokLoc.Translate("Stacklands_NewLanguageLoader_SetLanguage_Name");
 
 			//----------Image container
 			GameObject imgContainer = new GameObject("ImageContainer");
@@ -72,6 +74,16 @@ namespace Stacklands_NewLanguageLoader
 
 			image.sprite = sprite;
 			image.preserveAspect = true;
+
+			SetLanguageButton = btn;
+
+			SokLoc.instance.LanguageChanged += () =>
+			{
+				if (SetLanguageButton != null)
+				{
+					SetLanguageButton.TextMeshPro.text = SokLoc.Translate("Stacklands_NewLanguageLoader_SetLanguage_Name");
+				}
+			};
 
 		}
 	}

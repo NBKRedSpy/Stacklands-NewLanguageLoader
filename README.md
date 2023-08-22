@@ -34,6 +34,10 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 [Language icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/language)
 
 # Change Log
+## 1.1.1
+Added text localization for this mod. 
+See localization.tsv for the keys.
+
 ## 1.1.0
 
 Fix:  A disabled mod could prevent language packs from loading.

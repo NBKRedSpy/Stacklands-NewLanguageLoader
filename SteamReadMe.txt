@@ -43,6 +43,11 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 
 [h1]Change Log[/h1]
 
+[h2]1.1.1[/h2]
+
+Added text localization for this mod.
+See localization.tsv for the keys.
+
 [h2]1.1.0[/h2]
 
 Fix:  A disabled mod could prevent language packs from loading.

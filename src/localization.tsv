@@ -5,6 +5,4 @@ Stacklands_NewLanguageLoader_DumpLanguage_Name	Dump Game's Localizations
 Stacklands_NewLanguageLoader_DumpLanguage_ToolTip	Debug: On startup, save the game's default localization#data to a lang.tsv file in the mod's directory
 Stacklands_NewLanguageLoader_DisableStackMessages_Name	Debug: Disable Stack Trace
 Stacklands_NewLanguageLoader_DisableStackMessages_ToolTip	Debug: Make the log file more compact for mod info and warning logs by not including#the stack trace.  This will affect all mods
-
-
-
+Stacklands_NewLanguageLoader_SetLanguage_Name	Set Language
