@@ -1,6 +1,10 @@
 # Language Loader
 This mod allows users to create translations for Stacklands.  No software development skills required.
 
+# Important
+Prior to 1.1.0 there was a bug where in certain situations, the selected language would not stay after the game restarted.
+This has been fixed.
+
 # Character/Symbol Notes
 The game's default font supports many non English characters/symbols, but there may be some missing for certain languages.
 
