@@ -45,6 +45,10 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 
 [h1]Change Log[/h1]
 
+[h2]2.0.1[/h2]
+
+When selecting a language that has a custom font, the game will reboot.
+
 [h2]2.0.0[/h2]
 
 Supports custom fonts to support specific language glyphs.

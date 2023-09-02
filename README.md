@@ -37,6 +37,9 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 [Language icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/language)
 
 # Change Log
+## 2.0.1
+When selecting a language that has a custom font, the game will reboot. 
+
 ## 2.0.0
 Supports custom fonts to support specific language glyphs.
 
