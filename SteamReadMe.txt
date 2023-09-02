@@ -23,12 +23,9 @@ Here is a brief overview of what is involved.
 [*]Subscribe to this mod.
 [*]Download and extract the language template.
 [*]Use this mod to dump all of Stacklands' current translations to get the text and keys to translate.
-[*]Edit Files:
-[list]
-[*][i]add-language-info.json[/i] contains the base info for the new language.
-[*][i]localization.tsv[/i] add translations. Same format as Stacklands' localization.tsv.
-[*][i]manifest.json[/i] (the standard mod description file).
-[/list]
+[*]Translate the text.
+[*](Optional) Find a font that contains the target language's characters.
+[*]Create a simple configuration file.
 [*]Upload to Steam
 [/list]
 
@@ -47,6 +44,10 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 [url=https://www.flaticon.com/free-icons/language]Language icons created by Freepik - Flaticon[/url]
 
 [h1]Change Log[/h1]
+
+[h2]2.0.0[/h2]
+
+Supports custom fonts to support specific language glyphs.
 
 [h2]1.1.1[/h2]
 
