@@ -39,11 +39,26 @@ https://github.com/NBKRedSpy/Stacklands-NewLanguageLoader
 
 [h1]Credits:[/h1]
 
+Thanks to Damglador and skrybl for suggesting improvements and testing this mod.
+
+Extra thanks to cyber and Damglador for providing instructions on how to create and load font assets at runtime.
+
+[h1]Localizations for This Mod's Text[/h1]
+[list]
+[*]Ukrainian - Damglador
+[/list]
+
+[h2]Icons[/h2]
+
 [url=https://www.flaticon.com/free-icons/gear]Gear icons created by Freepik - Flaticon[/url]
 
 [url=https://www.flaticon.com/free-icons/language]Language icons created by Freepik - Flaticon[/url]
 
 [h1]Change Log[/h1]
+
+[h2]2.0.2[/h2]
+
+Added Damglador's Ukrainian translation for this mod's text.
 
 [h2]2.0.1[/h2]
 

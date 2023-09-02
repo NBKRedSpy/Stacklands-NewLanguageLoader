@@ -1,8 +1,8 @@
-Term	English
-Stacklands_NewLanguageLoader_LogAllMissingManifests_Name	Debug: Log any missing manifests
-Stacklands_NewLanguageLoader_LogAllMissingManifests_ToolTip	For any mods that have this mod as a dependency or optional dependency, #log if that mod did not have a localization.tsv file.#This is not an error as a required or optional dependency doesn't necessarily#mean it is a new language mod
-Stacklands_NewLanguageLoader_DumpLanguage_Name	Dump Game's Localizations
-Stacklands_NewLanguageLoader_DumpLanguage_ToolTip	Debug: On startup, save the game's default localization#data to a lang.tsv file in the mod's directory
-Stacklands_NewLanguageLoader_DisableStackMessages_Name	Debug: Disable Stack Trace
-Stacklands_NewLanguageLoader_DisableStackMessages_ToolTip	Debug: Make the log file more compact for mod info and warning logs by not including#the stack trace.  This will affect all mods
-Stacklands_NewLanguageLoader_SetLanguage_Name	Set Language
+﻿Term	English	Ukrainian
+Stacklands_NewLanguageLoader_LogAllMissingManifests_Name	Debug: Log any missing manifests	Звітувати про будь-який залежний мод
+Stacklands_NewLanguageLoader_LogAllMissingManifests_ToolTip	For any mods that have this mod as a dependency or optional dependency, #log if that mod did not have a localization.tsv file.#This is not an error as a required or optional dependency doesn't necessarily#mean it is a new language mod	Функція для налагодження: Записує в логи, якщо у будь-якої модифікації, що має цю модифікацію в залежностях,#або не обов'язкових залежностях, немає файлу localization.tsv.#Відсутність файлу не визначається помилкою, бо залежність або не обов'язкова залежність#не обов'язково означає, що це є модифікацією перекладу.
+Stacklands_NewLanguageLoader_DumpLanguage_Name	Dump Game's Localizations	Експортувати файл локалізації
+Stacklands_NewLanguageLoader_DumpLanguage_ToolTip	Debug: On startup, save the game's default localization#data to a lang.tsv file in the mod's directory	Після запуску гри, зберігає стандартний файл#локалізації гри як lang.tsv у теці модифікації
+Stacklands_NewLanguageLoader_DisableStackMessages_Name	Debug: Disable Stack Trace	Вимкнути трасування стеків
+Stacklands_NewLanguageLoader_DisableStackMessages_ToolTip	Debug: Make the log file more compact for mod info and warning logs by not including#the stack trace.  This will affect all mods	Функція для налагодження: Робить лог компактнім з інформацією про модифікації, попередженнями,#але виключаючи трасування стеків.  Це вплине на всі модифікації
+Stacklands_NewLanguageLoader_SetLanguage_Name	Set Language	Обрати мову
