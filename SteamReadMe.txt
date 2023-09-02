@@ -9,12 +9,9 @@ This has been fixed.
 
 [h1]Character/Symbol Notes[/h1]
 
-The game's default font supports many non English characters/symbols, but there may be some missing for certain languages.
+As of 2.0.0, custom fonts are now supported.  This will allow translations for languages that do not have the required glyphs (characters) in the game's default font.
 
-To quickly test if symbols are missing for the target language, go to the main menu's Cardopedia option.  In the search at the top, type or paste characters that are specific to the target language.  If the characters displayed are incorrect or appear as empty rectangles, a custom font will be needed.
-
-This version of the mod does not support loading custom fonts, but the goal is for future versions to do so.
-If this impacts your translation, please let me know and I'll try to prioritize adding the font functionality.
+The documentation to use custom fonts is in progress and will be completed shortly.
 
 [h1]Overview:[/h1]
 
