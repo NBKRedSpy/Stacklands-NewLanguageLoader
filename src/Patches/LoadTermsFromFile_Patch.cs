@@ -47,8 +47,6 @@ namespace Stacklands_NewLanguageLoader
 
 				if (initialCount == 0)
 				{
-					//The language has been changed.  The game will reset the localizations before this call.
-					Plugin.Log.Log($"Language: '{__instance.CurrentLanguage}'");
 					TargetLanguageKeys = new HashSet<string>();
 				}
 
@@ -71,12 +69,12 @@ namespace Stacklands_NewLanguageLoader
 						//The localization file doesn't have the target language.  Try falling back to English
 						languageColumnIndex = array[0]?.ToList()?.IndexOf("English") ?? -1;
 
-						Plugin.Log.Log($"No '{__instance.CurrentLanguage}' column.  Falling back to English");
+						//Plugin.Log.Log($"No '{__instance.CurrentLanguage}' column.  Falling back to English");
 					}
-					else
-					{
-						Plugin.Log.Log($"Attempted fallback.  No English column to use as fallback.");
-					}
+					//else
+					//{
+					//	Plugin.Log.Log($"Attempted fallback.  No English column to use as fallback.");
+					//}
 
 					isFallback = true;
 					
@@ -88,6 +86,7 @@ namespace Stacklands_NewLanguageLoader
 				{
 					for (int i = 1; i < array.Length; i++)
 					{
+						//Debug
 						//Plugin.Log.Log($"Processing line {i +1}");
 
 						if (array[i].Length <= languageColumnIndex)

@@ -22,6 +22,8 @@ namespace Stacklands_NewLanguageLoader
 
 		public static readonly string StacklandsModManifestFileName = "manifest.json";
 
+		public static Dictionary<string, LanguageDefinition> LoadedLanguages = 
+			new Dictionary<string, LanguageDefinition>();
 
 		internal void LoadModLanguages(bool logAllMissing)
 		{
@@ -33,8 +35,7 @@ namespace Stacklands_NewLanguageLoader
 			List<(string ManifestPath, ModManifest Manifest)> languageMods = GetNewLanguageMods();
 
 
-			Plugin.Log.Log($"Language counts: {languageMods.Count}");	
-
+			Plugin.Log.Log($"Language counts: {languageMods.Count}");
 
 			foreach ((string ManifestPath, ModManifest Manifest) languageMod in languageMods)
 			{
@@ -65,11 +66,20 @@ namespace Stacklands_NewLanguageLoader
 
 					}
 
+					Plugin.Log.Log($"Loading language mod: {defintionFileName}");
+
+
 					language = JsonConvert.DeserializeObject<LanguageDefinition>(File.ReadAllText(defintionFileName));
+					language.ModDirectory = modManifestFile.DirectoryName;
+
 
 					RegisterLanguage(language);
-					Plugin.Log.Log($"Registered '{language.ColumnLanguageName}' {language.NativeDisplayName}");
+					Plugin.Log.Log($"Registered '{language.ColumnLanguageName}' '{language.NativeDisplayName}'");
 
+
+					//todo:  duplicate mods (Steam and local) are not skipping.
+					//TODO:  Verify that disabled language mods are not being affected.
+					LoadedLanguages.Add(language.ColumnLanguageName, language);
 				}
 				catch (Exception ex)
 				{
@@ -89,6 +99,8 @@ namespace Stacklands_NewLanguageLoader
 			List<string> modPaths = ModManager.GetModPaths();
 			var modManifests = new List<(string, ModManifest)>();
 
+			HashSet<string> loadedManifestIds = new HashSet<string>();	
+
 			foreach (string modPath in modPaths)
 			{
 				try
@@ -105,11 +117,18 @@ namespace Stacklands_NewLanguageLoader
 							continue;
 						}
 
+						if(loadedManifestIds.Contains(manifest.Id))
+						{
+							Plugin.Log.Log($"Language Loading:  Mod with id '{manifest.Id}' has already been loaded.  Skipping.  Directory '{manifestFilePath}'");
+							continue;
+						}
+
 						if (
 							manifest.Dependencies.Contains(Plugin.ModManifestId,StringComparer.OrdinalIgnoreCase) ||
 							manifest.OptionalDependencies.Contains(Plugin.ModManifestId, StringComparer.OrdinalIgnoreCase))
 						{
 							modManifests.Add((manifestFilePath, manifest));
+							loadedManifestIds.Add(manifest.Id);
 						}
 					}
 				}

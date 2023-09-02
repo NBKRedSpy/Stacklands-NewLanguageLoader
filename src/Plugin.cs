@@ -9,6 +9,7 @@ using System.Text;
 using System.Web;
 using System.Xml.Linq;
 using HarmonyLib;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -58,11 +59,12 @@ namespace Stacklands_NewLanguageLoader
 				Application.SetStackTraceLogType(LogType.Warning, StackTraceLogType.None);
 			}
 
+			//Todo:  Font diagnostics
 			LanguageInfoLoader loader = new LanguageInfoLoader();
 
 			loader.LoadModLanguages(LogAllMissingManifests.Value);
 
-			Plugin.Log.Log($"Current SokLoc Language : '{SokLoc.instance.CurrentLanguage}' ");
+			Logger.Log($"Current SokLoc Language : '{SokLoc.instance.CurrentLanguage}' ");
 			Harmony.PatchAll();
 
 		}
@@ -76,6 +78,44 @@ namespace Stacklands_NewLanguageLoader
 
 		public override void Ready()
 		{
+			//Load the fonts in Ready().  
+			//For some reason, fonts won't load in the Awake.  Maybe a context or game state issue?
+			//There appears to be no issue loading the fonts this late.  Everything seems to work anyway.
+			foreach (var language in LanguageInfoLoader.LoadedLanguages.Values)
+			{
+				try
+				{
+					//Loads the font if it is set.
+					if(string.IsNullOrEmpty(language.FontUnityAssetPath) == false)
+					{
+						Logger.Log($"Loading custom font '{language.ColumnLanguageName}'");
+					}
+					
+					if (language.LoadFont(out string error) == false)
+					{
+						Logger.Log($"Error loading font for language '{language.ColumnLanguageName}'. Error: '{error}'");
+					}
+					//Saving for debugging options.
+					//else
+					//{
+					//	//Debug
+					//	Log.Log($"Characters count: {language.Font.characterTable.Count}");
+
+					//	foreach (var c in language.Font.characterTable)
+					//	{
+					//		Log.Log($"	'{Convert.ToChar(c.unicode)}' ({c.unicode.ToString("X4")})");
+					//	}
+
+
+					//}
+
+				}
+				catch (Exception ex)
+				{
+					Plugin.Log.LogError($"Failed to set language '{language?.ColumnLanguageName}'.  {ex.ToString()}");
+				}
+			}
+
 
 		}
 
