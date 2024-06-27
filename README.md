@@ -44,6 +44,12 @@ Extra thanks to cyber and Damglador for providing instructions on how to create 
 [Language icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/language)
 
 # Change Log
+## 2.1.0
+* Changed custom font's asset name search to case insensitive.  
+Unity's UI uses Pascal case, while the created bundles use lower case.
+
+* Changed game to now always reboot if a custom font was selected.  Caused the translation to not load.
+
 ## 2.0.2
 Added Damglador's Ukrainian translation for this mod's text.
 
