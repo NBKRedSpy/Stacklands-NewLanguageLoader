@@ -53,6 +53,15 @@ Extra thanks to cyber and Damglador for providing instructions on how to create 
 
 [h1]Change Log[/h1]
 
+[h2]2.1.0[/h2]
+[list]
+[*]
+Changed custom font's asset name search to case insensitive.
+Unity's UI uses Pascal case, while the created bundles use lower case.
+[*]
+Changed game to now always reboot if a custom font was selected.  Caused the translation to not load.
+[/list]
+
 [h2]2.0.2[/h2]
 
 Added Damglador's Ukrainian translation for this mod's text.

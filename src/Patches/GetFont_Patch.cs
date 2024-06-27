@@ -98,19 +98,7 @@ namespace Stacklands_NewLanguageLoader.Patches
             }
             else
             {
-                //Debug
-                //Plugin.Log.Log($"FontManager.GetFont Returning custom font:  {CurrentLanguage.Font.name}");
-                //Plugin.Log.Log($"FontManager.GetFont Mesh: {CurrentLanguage.Font.material}");
-                //Hacking test
-
-    //            if(OriginalWorldFont == null)
-    //            {
-    //                OriginalWorldFont = FontManager.instance.WorldFontAsset;
-
-				//}
-
                 SetWorldFont(CurrentLanguage.Font);
-
 
                 __result = CurrentLanguage.Font;
                 __runOriginal = false;
