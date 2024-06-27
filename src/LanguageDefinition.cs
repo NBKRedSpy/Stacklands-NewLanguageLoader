@@ -106,9 +106,14 @@ namespace Stacklands_NewLanguageLoader
 				//Verify the asset path is valid, or an exception will occur from Unity on use.
 				string[] assetNames = bundle.GetAllAssetNames();
 
-				if (assetNames.Any(x => x == FontUnityAssetPath))
+				//Do case insesitive to make it easier for users.  The Unity Editor will show the case, but the bundle
+				//	seems to always be lowercase.
+				string matchedAssetPath = assetNames.FirstOrDefault(x => String.Compare(x, FontUnityAssetPath, true) == 0);
+
+                if (!String.IsNullOrEmpty(matchedAssetPath))
 				{
-					font = bundle.LoadAsset<TMP_FontAsset>(FontUnityAssetPath);
+					Plugin.Log.Log($"Loading font asset '{matchedAssetPath}'");
+					font = bundle.LoadAsset<TMP_FontAsset>(matchedAssetPath);
 					return true;
 				}
 				else
